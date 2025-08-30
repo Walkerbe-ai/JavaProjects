@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Arslan Aminov",
+    "login": "arslan1234",
+    "password": "123456",
+    "age": 18,
+    "group": "19п-1"
+  },
+  {
+    "id": 1,
+    "name": "Marat",
+    "login": "marat228",
+    "password": "qwerty",
+    "age": 18,
+    "group": "20п-1"
+  },
+  {
+    "id": 2,
+    "name": "Shamil",
+    "login": "shamil1337",
+    "password": "1234567890",
+    "age": 6,
+    "group": "20п-1"
+  }
+]

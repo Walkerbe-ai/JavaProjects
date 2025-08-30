@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Животные</string>
+    <string-array name="item_array">
+        <item>Кошки</item>
+        <item>Собаки</item>
+        <item>Попугаи</item>
+    </string-array>
+    <string name="cat1_title">Бенгальская</string>
+    <string name="cat2_title">Сибирская</string>
+    <string name="cat3_title">Сомали</string>
+
+    <string name="cat1_info"></string>
+    <string name="cat2_info"></string>
+    <string name="cat3_info"></string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="colors">
+        <item>Красный</item>
+        <item>Оранжевый</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Голубой</item>
+    </string-array>
+
+    <string-array name="description_of_temp">
+        <item>Красный цвет</item>
+        <item>Оранжевый цвет</item>
+        <item>Желтый цвет</item>
+        <item>Зеленый цвет</item>
+        <item>Голубой цвет</item>
+    </string-array>
+</resources>

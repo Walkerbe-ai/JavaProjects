@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="welcome">Добро пожаловать!!!</string>
+    <string name="buttonText">Create Style</string>
+    <string name="firstString">Здравствуйте, %s, выберите пол</string>
+    <string name="secondString">Выберите одежду</string>
+    <string name="thirdString">Выберите цвет</string>
+    <string name="fourString">Выберите размер</string>
+    <string name="textview">TextView</string>
+    <string-array name="colorArray">
+        <item>Black</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>While</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Brown</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Grey</item>
+        <item>Purple</item>
+    </string-array>
+    <string-array name="sizeArray">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXL</item>
+    </string-array>
+</resources>

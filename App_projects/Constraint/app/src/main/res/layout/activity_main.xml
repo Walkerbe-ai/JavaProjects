@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/BlackRectangle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@drawable/main_text_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/GrayRectangle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sub_text_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BlackRectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <Button
+        android:id="@+id/BlueRectangle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sub_text_shape"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/BlackRectangle"
+        app:layout_constraintWidth_percent="1" />
+
+    <Button
+        android:id="@+id/BrownRectangle"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:foreground="@drawable/square_button_shape"
+        app:layout_constraintEnd_toStartOf="@id/BrownRectangle2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/BlueRectangle" />
+
+    <Button
+        android:id="@+id/BrownRectangle2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:foreground="@drawable/square_button_shape"
+        app:layout_constraintEnd_toStartOf="@id/BrownRectangle3"
+        app:layout_constraintStart_toEndOf="@id/BrownRectangle"
+        app:layout_constraintTop_toTopOf="@id/BrownRectangle" />
+
+    <Button
+        android:id="@+id/BrownRectangle3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:foreground="@drawable/square_button_shape"
+        app:layout_constraintEnd_toStartOf="@id/BrownRectangle4"
+        app:layout_constraintStart_toEndOf="@id/BrownRectangle2"
+        app:layout_constraintTop_toTopOf="@id/BrownRectangle2" />
+
+    <Button
+        android:id="@+id/BrownRectangle4"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:foreground="@drawable/square_button_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/BrownRectangle3"
+        app:layout_constraintTop_toTopOf="@id/BrownRectangle3" />
+
+    <ImageView
+        android:id="@+id/RedOval"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/RedOval2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BrownRectangle2"
+        app:srcCompat="@drawable/image_shape" />
+
+    <ImageView
+        android:id="@+id/RedOval2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/RedOval3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RedOval"
+        app:srcCompat="@drawable/image_shape" />
+
+    <ImageView
+        android:id="@+id/RedOval3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/BlackRectangle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RedOval2"
+        app:srcCompat="@drawable/image_shape" />
+
+
+    <TextView
+        android:id="@+id/GrayRectangle2"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sub_text_shape"
+        app:layout_constraintEnd_toStartOf="@+id/BlackRectangle2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RedOval3" />
+
+    <TextView
+        android:id="@+id/BlackRectangle2"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/main_text_shape"
+        app:layout_constraintEnd_toStartOf="@+id/GrayRectangle3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/GrayRectangle2"
+        app:layout_constraintTop_toTopOf="@+id/GrayRectangle2" />
+
+    <TextView
+        android:id="@+id/GrayRectangle3"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sub_text_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/BlackRectangle2"
+        app:layout_constraintTop_toTopOf="@+id/BlackRectangle2" />
+
+        <TextView
+        android:id = "@+id/GrayRectangle4"
+        android:layout_width = "0dp"
+        android:layout_height = "30dp"
+        android:background = "@drawable/sub_text_shape"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintHorizontal_weight = "1"
+        app:layout_constraintLeft_toLeftOf = "parent"
+        app:layout_constraintRight_toLeftOf = "@+id/BlackRectangle3"/>
+
+        <TextView
+        android:id = "@+id/BlackRectangle3"
+        android:layout_width = "0dp"
+        android:layout_height = "30dp"
+        android:background = "@drawable/main_text_shape"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintHorizontal_weight = "2"
+        app:layout_constraintLeft_toRightOf = "@+id/GrayRectangle4"
+        app:layout_constraintRight_toLeftOf = "@+id/GrayRectangle5"/>
+
+        <TextView
+        android:id = "@+id/GrayRectangle5"
+        android:layout_width = "0dp"
+        android:layout_height = "30dp"
+        android:background = "@drawable/sub_text_shape"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintHorizontal_weight = "1"
+        app:layout_constraintLeft_toRightOf = "@+id/BlackRectangle3"
+        app:layout_constraintRight_toRightOf = "parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
