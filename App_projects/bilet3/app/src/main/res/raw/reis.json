@@ -1,0 +1,20 @@
+[
+  {
+    "idReis": "0",
+    "name": "Уфа-Москва",
+    "dateOfOut": "24.10.2022",
+    "dateOfCome": "25.10.2022"
+  },
+  {
+    "idReis": "1",
+    "name": "fdgdf",
+    "dateOfOut": "22.12.29",
+    "dateOfCome": "25.12.33"
+  },
+  {
+    "idReis": "2",
+    "name": "gdfgdf",
+    "dateOfOut": "12.12.23",
+    "dateOfCome": "12.12.23"
+  }
+]
