@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".views.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите предложение для перевода"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"/>
+    <Spinner
+        android:id="@+id/spinnerEditTextOnTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/translatesLanguage"
+        />
+    <EditText
+        android:id="@+id/translateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите язык для перевода"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"/>
+    <Spinner
+        android:id="@+id/spinnerEditTextToTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/translatesLanguage"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перевод: "
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/translateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Перевести"
+        android:onClick="transalteClick"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Добавить новые слова для перевода"
+    android:onClick="wordTotransalteClick"/>
+
+</LinearLayout>

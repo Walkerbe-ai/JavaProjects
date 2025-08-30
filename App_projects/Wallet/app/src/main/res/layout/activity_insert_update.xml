@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.InsertUpdateActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/bank_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Банк"
+        />
+
+    <EditText
+        android:id="@+id/number_card_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер карты"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/month_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Месяц"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/year_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Год"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/ccv_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ccv"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:onClick="onClickInsert"/>
+
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:visibility="gone"
+        android:onClick="onClickDelete"/>
+
+</LinearLayout>

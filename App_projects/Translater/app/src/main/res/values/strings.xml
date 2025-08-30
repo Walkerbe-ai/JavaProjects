@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ezkHelpTranslater</string>
+    <string-array name="translatesLanguage">
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Немецкий</item>
+    </string-array>
+</resources>

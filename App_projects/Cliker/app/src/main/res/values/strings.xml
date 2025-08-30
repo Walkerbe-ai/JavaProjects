@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="Level">Ваш уровень: %s</string>
+    <string name="buttonText">НАЖМИ НА МЕНЯ!</string>
+    <string name="countSkills">Скиллы: %s</string>
+    <string name="strenchClick">Сила клика: %s</string>
+    <string name="autoClick">Сила авто-клика: %s</string>
+</resources>

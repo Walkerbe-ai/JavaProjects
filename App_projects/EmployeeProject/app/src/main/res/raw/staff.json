@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "Шамиль",
+    "LastName": "Кулиев",
+    "MiddleName": "Обычное",
+    "ProjectName": [
+      1,
+      2
+    ]
+  },
+  {
+    "Id": 2,
+    "FirstName": "Илья",
+    "LastName": "Новиков",
+    "MiddleName": "Обычное",
+    "ProjectName": [
+      3
+    ]
+  },
+  {
+    "Id": 3,
+    "FirstName": "Артем",
+    "LastName": "Десанский",
+    "MiddleName": "Обычное",
+    "ProjectName": []
+  }
+]

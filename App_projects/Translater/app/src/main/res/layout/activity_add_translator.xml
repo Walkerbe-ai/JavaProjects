@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".views.AddTranslator">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Слово для перевода на русский"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/wordForTranslateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Слово для перевода на английский"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/wordTranslateOnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Слово для перевода на немецкий"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/wordTranslateOnDeutsch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить новое слово для перевода"
+            android:onClick="addWordClick"/>
+
+    </LinearLayout>
